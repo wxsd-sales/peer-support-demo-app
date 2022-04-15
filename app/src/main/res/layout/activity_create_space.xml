@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.CreateSpaceActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#777B87"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#777B87"
+                android:text="Back"
+                android:translationX="-1dp" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Session"
+            android:textColor="#F4F2F2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/topic_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Topic:"
+            android:textColor="#686464"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E6E4E4"
+            android:entries="@array/topic_list"
+            android:background="#9932CC"/>
+
+        <TextView
+            android:id="@+id/room_desc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Room Description:"
+            android:textColor="#686464"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/room_desc"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="10dp"
+            android:background="#9932CC"
+            android:backgroundTint="#E6E4E4"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/duration_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Duration:"
+            android:textColor="#686464"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:backgroundTint="#E6E4E4"
+            android:entries="@array/duration_list"
+            android:background="#9932CC"/>
+
+        <TextView
+            android:id="@+id/preferences_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Peer Preferences:"
+            android:textColor="#686464"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/gender_preference"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:backgroundTint="#E6E4E4"
+            android:entries="@array/gender_list"
+            android:background="#9932CC"/>
+
+        <Spinner
+            android:id="@+id/age_preference"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:backgroundTint="#E6E4E4"
+            android:entries="@array/age_list"
+            android:background="#9932CC"/>
+
+        <LinearLayout
+            android:id="@+id/ll_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/created_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#777B87"
+                android:text="Created"
+                android:textColor="#F3F2F2"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/create_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#777B87"
+                android:text="Create"
+                android:textColor="#F3F2F2" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

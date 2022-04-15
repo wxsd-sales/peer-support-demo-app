@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="#8A8888"-->
+    <!--        android:backgroundTint="#918F8F"-->
+    <!--        android:fillViewport="true"-->
+    <!--        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8A8888"
+        android:backgroundTint="#918F8F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_default="wrap">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Requests"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+            <!--            <Button-->
+<!--                android:id="@+id/new_space"-->
+<!--                android:layout_width="350dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:backgroundTint="#00BF74"-->
+<!--                android:text="Create A New Space" />-->
+
+            <!--                        <SearchView-->
+            <!--                            android:id="@+id/search_view"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:layout_marginStart="@dimen/size_8dp"-->
+            <!--                            android:layout_marginTop="@dimen/size_8dp"-->
+            <!--                            android:layout_marginEnd="@dimen/size_8dp"-->
+            <!--                            android:background="@drawable/bg_gray_border"-->
+            <!--                            android:iconifiedByDefault="false"-->
+            <!--                            android:queryHint="Search Here"-->
+            <!--                            app:queryBackground="@null" />-->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="@dimen/size_8dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/common_fragment_item_list" />
+
+            <TextView
+                android:id="@+id/tv_empty_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/no_data_present"
+                android:textAllCaps="true"
+                android:textSize="@dimen/textMedium"
+                android:visibility="gone" />
+
+
+
+
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <!--    </androidx.core.widget.NestedScrollView>-->
+</layout>

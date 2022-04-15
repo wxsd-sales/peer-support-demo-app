@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">WebexAndroid</string>
+    <string name="android_sdk_sample">Android Webex Sample</string>
+    <string name="login_oauth">Web Auth Login</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="login">Login</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="emailtip"> Enter email address for user</string>
+    <string name="webexandroid_sample"> Webex Android </string>
+    <string name="initiate_call">Initiate Call</string>
+    <string name="waiting_call">Waiting Call</string>
+    <string name="logout">Logout</string>
+    <string name="uc_loggedIn">You are LoggedIn (Unified CM)</string>
+    <string name="phone_service_connected">Phone Services Connected</string>
+    <string name="phone_service_failed">Phone Services Failed: </string>
+    <string name="error_occurred">An Error Occurred</string>
+    <string name="call_failed">Call Failed</string>
+    <string name="exit">EXIT</string>
+    <string name="mute">Mute</string>
+    <string name="hold">Hold</string>
+    <string name="login_jwt">JWT Login</string>
+    <string name="jwt_login_token_empty_error">Please enter valid token.</string>
+    <string name="jwt_login_failed">JWT Login Failed</string>
+    <string name="mute_all">Mute All</string>
+    <string name="unmute_all">Unmute All</string>
+    <string name="mute_all_self">Mute all will not work for self.</string>
+    <string name="mute_feature_is_not_available_for_cucm_calls">Mute feature is not available for CUCM calls</string>
+    <string name="let_in_confirmation">Do you want to let in this participant?</string>
+    <string name="message">Message</string>
+    <string name="start_associated_call_failed">Call Association Failed</string>
+    <string name="calling">Calling…</string>
+    <string name="enter_host_key">Enter host key</string>
+    <string name="enter_meeting_pin">Enter meeting password</string>
+    <string name="host_key_required">Please enter host key</string>
+    <string name="meeting_pin_required">Please enter meeting password</string>
+    <string name="notification_start_share_foreground_text">You are starting screen share.</string>
+    <string name="notification_share_foreground_title">Screen Share</string>
+    <string name="onCall">OnCall</string>
+    <string name="meeting">Meeting</string>
+    <string name="are_you_host">Are you a host?</string>
+    <string name="meeting_error">Meeting Error</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="receiving_off">OFF</string>
+    <string name="receiving_on">ON</string>
+    <string name="receiving_video">Receiving Video</string>
+    <string name="receiving_audio">Receiving Audio</string>
+    <string name="receiving_sharing">Receiving Sharing</string>
+    <string name="scaling_mode">Scaling Mode</string>
+    <string name="scaling_mode_fit">Fit</string>
+    <string name="scaling_mode_cropFill">CropFill</string>
+    <string name="scaling_mode_stretchFill">StretchFill</string>
+    <string name="scaling_mode_unknown">Unknown</string>
+    <string name="scaling_mode_not_supported">Not Supported</string>
+    <string name="composite_stream">Composite Layout</string>
+    <string name="composite_stream_filmstrip">FILMSTRIP</string>
+    <string name="composite_stream_single">SINGLE</string>
+    <string name="composite_stream_grid">GRID</string>
+    <string name="composite_stream_unknown">Unknown</string>
+    <string name="composite_stream_not_supported">Not Supported</string>
+    <string name="video_stream_mode">Video stream mode</string>
+    <string name="video_stream_mode_composited">Composited</string>
+    <string name="video_stream_mode_multi">Multi-stream</string>
+    <string name="waiting_call_header">Waiting for call…</string>
+    <string name="add_call">Add Call</string>
+    <string name="merge_call">Merge Calls</string>
+    <string name="video">Video</string>
+    <string name="participants">Participants</string>
+    <string name="transfer_call">Transfer Call</string>
+    <string name="outgoing_call">Outgoing Call</string>
+    <string name="screen_share">Screen Share</string>
+    <string name="swap_camera">Swap Camera</string>
+    <string name="more_option">More Option</string>
+    <string name="speaker">Speaker</string>
+    <string name="call_meeting_join">Join</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <string name="number_star">*</string>
+    <string name="number_hash">#</string>
+    <string name="number_plus">+</string>
+    <string name="tap_to_dial">Tap to dial</string>
+    <string name="default_notification_channel_id">Notification</string>
+    <string name="ongoing">OnGoing...</string>
+    <string name="no_data_present">No data present</string>
+    <string name="send_message">Send Message</string>
+    <string name="post_message">Post Message</string>
+    <string name="post_message_send_title">Compose Message</string>
+    <string name="post_message_send_desc">What would you like to say?</string>
+    <string name="post_message_send_plain">Plain</string>
+    <string name="post_message_send_markdown">Markdown</string>
+    <string name="post_message_attach">Attach</string>
+    <string name="post_message_error">Send Message Error</string>
+    <string name="post_message_internal_error">Send Message Internal Error</string>
+    <string name="post_message_empty_error">Empty Message</string>
+    <string name="post_message_email_empty">Empty email address</string>
+    <string name="post_message_attach_permission_error">Permission not granted</string>
+    <string name="post_message_invalid_message">Invalid Message</string>
+    <string name="edit_message_internal_error">Edit Message Internal Error</string>
+    <string name="message_edit_successful">Message edited successfully</string>
+    <string name="message_id">Message Id:</string>
+    <string name="parent_id">Parent Id:</string>
+    <string name="space_title">Space Title:</string>
+    <string name="space_id">Space Id:</string>
+    <string name="person_id">Person Id:</string>
+    <string name="person_email">Person Email:</string>
+    <string name="person_display_name">Person Display Name:</string>
+    <string name="to_person_id">To Person Id:</string>
+    <string name="to_person_email">To Person Email:</string>
+    <string name="message_label">Message:</string>
+    <string name="attachments_label">Attachments (%d)</string>
+    <string name="message_details">Message Details</string>
+    <string name="created_on">Created On:</string>
+    <string name="created_date">Created Date:</string>
+    <string name="team_name">Team Name:</string>
+    <string name="team_id">Team Id:</string>
+    <string name="last_activity">Last Activity:</string>
+    <string name="team_actions">Team Actions</string>
+    <string name="messages">Messages</string>
+    <string name="no_messages_in_space">No Messages in Space</string>
+    <string name="sender">Sender:</string>
+    <string name="sent_date">Sent Date:</string>
+    <string name="success">Success</string>
+    <string name="mark_message_as_read">Mark as read</string>
+    <string name="delete_message">Delete Message</string>
+    <string name="reply_message">Reply to message</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="bytes_downloaded">bytes downloaded.</string>
+    <string name="total_bytes">total bytes.</string>
+    <string name="download_file">Download File</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="download_file_error">Download file error occurred</string>
+
+    <string name="person_nick_name">Person Nick Name:</string>
+    <string name="person_first_name">Person First Name:</string>
+    <string name="person_last_name">Person Last Name:</string>
+    <string name="person_avatar">Person Avatar:</string>
+    <string name="person_status">Person Status:</string>
+    <string name="person_type">Person Type:</string>
+    <string name="person_last_activity">Person Last Activity:</string>
+    <string name="person_detail">Person Detail</string>
+    <string name="person_org_id">Person Org Id:</string>
+    <string-array name="topic_list">
+        <item>Anxiety</item>
+        <item>Addiction</item>
+        <item>Relationship Issues</item>
+        <item>Depresion</item>
+        <item>Adoption</item>
+        <item>Anger Management</item>
+        <item>Being Single</item>
+        <item>Single Parents</item>
+        <item>Pregnancy</item>
+        <item>Education Pressure</item>
+    </string-array>
+    <string-array name="gender_list">
+        <item>Any Gender (recommended)</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="anonymous_list">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="age_list">
+        <item>Any age (recommended)</item>
+        <item>Under 21</item>
+        <item>21-40</item>
+        <item>40-80</item>
+        <item>Over 80</item>
+    </string-array>
+    <string-array name="duration_list">
+        <item>1 hour (recommended)</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour 30 min</item>
+        <item>2 hours</item>
+        <item>2 hours 30 min</item>
+    </string-array>
+</resources>

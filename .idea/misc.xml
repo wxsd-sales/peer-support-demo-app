@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/circle_filled_red.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_call_hold.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_call.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_dialer.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_home.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_login.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_search.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/bottom_sheet_call_options.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/common_fragment_item_list.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/dialog_enter_meeting_pin.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_call.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_call_controls.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_common.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/list_item_call_meeting.xml" value="0.11231884057971014" />
+        <entry key="..\:/Users/rkanthet/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/remote_video_view.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.20559210526315788" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.20358306188925082" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_baseline_video_call_24.xml" value="0.20559210526315788" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.20559210526315788" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_login.xml" value="0.32083333333333336" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/drawable/ic_peer_help.xml" value="0.32083333333333336" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_call.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_create_space.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_dialer.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_join_request.xml" value="0.19539473684210526" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_login_with_token.xml" value="0.19539473684210526" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_oauth.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_search3.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/activity_space_detail.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/all_spaces_list.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/common_fragment_item_list.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/common_group_item_list.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_call.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_call_controls.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_common.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_dialog_person.xml" value="0.19539473684210526" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_home.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/remote_video_view.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/sent_message.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/space_message.xml" value="0.11644736842105263" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/layout/test_message.xml" value="0.11644736842105263" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master - PeerSupport/WebexAndroid-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3046875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/activity_login.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/activity_search3.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/fragment_call_controls.xml" value="0.25793650793650796" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/remote_video_view.xml" value="0.25793650793650796" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout-land/sent_message.xml" value="0.25793650793650796" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_call.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_contact.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_dialer.xml" value="0.3046875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_file_viewer.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_home.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_message_composer.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_message_list.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_search.xml" value="0.11864406779661017" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_search3.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/activity_space_detail.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/bottom_sheet_message_options.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/common_fragment_item_list.xml" value="0.3046875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/dialog_message_details.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/dialog_post_message_handler.xml" value="0.12994350282485875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_call.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_call_controls.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_common.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_home.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/fragment_notifications.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/list_item_call_meeting.xml" value="0.2898550724637681" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/list_item_mention.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/list_item_space_message.xml" value="0.1640625" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/remote_video_view.xml" value="0.29891304347826086" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/sent_message.xml" value="0.3046875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/space_message.xml" value="0.1" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/test_message.xml" value="0.3046875" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/layout/test_notification_frag.xml" value="0.30344202898550726" />
+        <entry key="..\:/Users/rkanthet/Documents/WebexAndroid-master/WebexAndroid-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

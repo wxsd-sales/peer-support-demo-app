@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="space"
+            type="com.example.webexandroid.messaging.spaces.SpaceModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".search.ui.notifications.NotificationsFragment">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view2"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="451dp"
+            android:elevation="12dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile_image"></ImageView>\
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/emailtxt"
+            android:layout_width="125dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="345dp"
+            android:text="Email:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/email"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="179dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="40dp"
+            android:text="Email id"
+            app:layout_constraintStart_toEndOf="@+id/emailtxt"
+            app:layout_constraintTop_toBottomOf="@+id/display_name" />
+
+        <TextView
+            android:id="@+id/display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="179dp"
+            android:text="DisplayName"
+            app:layout_constraintBottom_toTopOf="@+id/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/last_activity_txt"
+            android:layout_width="137dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="302dp"
+            android:text="Last Activity:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/last_activity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailtxt" />
+
+        <TextView
+            android:id="@+id/last_activity"
+            android:layout_width="177dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="302dp"
+            android:text="Last Activity txt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/last_activity_txt"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/org_id_txt"
+            android:layout_width="127dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="18dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/status_txt"
+            app:layout_constraintEnd_toStartOf="@+id/org_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/last_activity_txt" />
+
+        <TextView
+            android:id="@+id/org_id"
+            android:layout_width="180dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="21dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/status"
+            app:layout_constraintStart_toEndOf="@+id/org_id_txt"
+            app:layout_constraintTop_toBottomOf="@+id/last_activity" />
+
+        <TextView
+            android:id="@+id/status_txt"
+            android:layout_width="117dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="221dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/org_id_txt" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="174dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="222dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/status_txt"
+            app:layout_constraintTop_toBottomOf="@+id/org_id" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

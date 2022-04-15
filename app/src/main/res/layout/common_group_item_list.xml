@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="listItem"
+            type="com.example.webexandroid.search.ui.dashboard.DashboardFragment.ItemModel" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/size_8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="@dimen/size_8dp"
+            android:layout_marginBottom="4dp"
+            card_view:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/size_8dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@{listItem.name}"
+                    android:textSize="29dp"
+                    tools:text="Rohit Sharma" />
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="704dp"-->
+                <!--                    android:layout_height="43dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:background="#777B87"-->
+                <!--                    android:gravity="bottom|left"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:translationY="160dp"-->
+                <!--                    tools:visibility="visible"></LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/messageImage"-->
+                    <!--                        android:layout_width="@dimen/icon_size_list_items"-->
+                    <!--                        android:layout_height="@dimen/icon_size_list_items"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginLeft="5dp"-->
+                    <!--                        android:layout_marginRight="5dp"-->
+                    <!--                        android:scaleType="fitXY"-->
+                    <!--                        android:src="@drawable/ic_baseline_message_24" />-->
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/phoneImage"-->
+                    <!--                        android:layout_width="@dimen/icon_size_list_items"-->
+                    <!--                        android:layout_height="@dimen/icon_size_list_items"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginLeft="5dp"-->
+                    <!--                        android:layout_marginRight="5dp"-->
+                    <!--                        android:scaleType="fitXY"-->
+                    <!--                        android:src="@drawable/ic_baseline_call_24" />-->
+
+                    <TextView
+                        android:id="@+id/ongoing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/ongoing"
+                        android:textColor="@android:color/black"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#777B87"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                android:translationY="100dp">
+
+                <Button
+                    android:id="@+id/join_request_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FF9A"
+                    android:text="View Join Requests"
+
+                    android:translationX="130dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/view2"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:elevation="12dp"
+                    android:innerRadius="100dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    android:translationX="-210dp"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="#777B87"
+                        android:backgroundTint="#777B87"
+                        android:src="@drawable/ic_baseline_info_24"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</layout>

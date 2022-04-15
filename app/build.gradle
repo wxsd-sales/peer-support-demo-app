@@ -1,0 +1,129 @@
+import com.ciscowebex.androidsdk.build.*
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+apply plugin: 'com.google.firebase.crashlytics' // Crashlytics Gradle plugin
+apply plugin: 'kotlinx-serialization'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+    ndkVersion project.hasProperty("ndkVersion") ? project.property('ndkVersion') : Versions.ndkVersion
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    defaultConfig {
+        applicationId "com.cisco.sdk_android"
+        minSdkVersion Versions.minSdk
+        targetSdkVersion Versions.targetSdk
+        versionCode 30003
+        versionName "3.1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "CLIENT_ID", "${CLIENT_ID}"
+        buildConfigField "String", "CLIENT_SECRET", "${CLIENT_SECRET}"
+        buildConfigField "String", "SCOPE", "${SCOPE}"
+        buildConfigField "String", "REDIRECT_URI", "${REDIRECT_URI}"
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    splits {
+        // Configures multiple APKs based on ABI.
+        abi {
+            // Enables building multiple APKs per ABI.
+            enable true
+
+            // By default all ABIs are included, so use reset() and include to specify that we only
+            // want APKs for x86, armeabi-v7a, and mips.
+            reset()
+
+            // Specifies a list of ABIs that Gradle should create APKs for.
+            include "x86", "x86_64", "armeabi-v7a", "arm64-v8a"
+
+            // Specifies that we want to also generate a universal APK that includes all ABIs.
+            universalApk true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.ciscowebex:androidsdk:3.1.0@aar'
+    //implementation 'com.github.clans:fab:1.6.4'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v13:26.0.2'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation Dependencies.kotlinStdLib
+    implementation Dependencies.coreKtx
+    implementation Dependencies.appCompat
+    implementation Dependencies.constraintLayout
+    implementation Dependencies.material
+    implementation Dependencies.recyclerview
+    implementation Dependencies.cardview
+    implementation Dependencies.viewpager2
+    implementation Dependencies.koin
+    implementation Dependencies.koinViewModel
+    implementation Dependencies.swiperefresh
+    implementation Dependencies.media
+    implementation Dependencies.nimbusJosh
+
+    // RXJAVA
+    implementation Dependencies.rxjava
+    implementation Dependencies.rxandroid
+    implementation Dependencies.rxkotlin
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2'
+
+    api 'io.jsonwebtoken:jjwt-api:0.10.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.10.5'
+    runtimeOnly('io.jsonwebtoken:jjwt-orgjson:0.10.5')
+
+    testImplementation Dependencies.Test.junit
+    androidTestImplementation Dependencies.Test.androidxJunit
+    androidTestImplementation Dependencies.Test.espressoCore
+    androidTestImplementation Dependencies.Test.espressoContrib
+    androidTestImplementation Dependencies.Test.espressoWeb
+    androidTestImplementation Dependencies.Test.espressoIntents
+    androidTestImplementation Dependencies.Test.rules
+    androidTestImplementation Dependencies.Test.testExt
+    debugImplementation (Dependencies.Test.fragmentScenerio) {
+        exclude group: 'androidx.test', module: 'monitor'
+    }
+    implementation platform(Dependencies.firebaseBom)
+    implementation Dependencies.firebaseMessaging
+    implementation Dependencies.firebaseAnalytics
+    implementation Dependencies.firebaseCrashlytics
+    implementation Dependencies.gson
+
+}

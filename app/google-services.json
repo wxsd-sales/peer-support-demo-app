@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1085580265724",
+    "firebase_url": "https://peersupport-9643a-default-rtdb.firebaseio.com",
+    "project_id": "peersupport-9643a",
+    "storage_bucket": "peersupport-9643a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085580265724:android:67b40b9b489d109c376f79",
+        "android_client_info": {
+          "package_name": "com.cisco.sdk_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085580265724-omgfgel24unjrjoubh010rbju426klvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTrKWR7k2i7-hS_w9nX5IJFbkuZ67sJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085580265724-omgfgel24unjrjoubh010rbju426klvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085580265724:android:281d362dc72fb7bb376f79",
+        "android_client_info": {
+          "package_name": "com.example.webexandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085580265724-omgfgel24unjrjoubh010rbju426klvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTrKWR7k2i7-hS_w9nX5IJFbkuZ67sJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085580265724-omgfgel24unjrjoubh010rbju426klvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
