@@ -52,13 +52,13 @@ In this application, the user can create new therapy sessions or join an existin
 
 The first page in the peer support app is the support groups page. In this all the support groups that are active/ closed are displayed and you can view the details of the support group.
 
-![Support Groups Page](assets/support_groups_page.PNG)
+![Support Groups Page](assets/support_groups_page.jpg)
 
 #### Info
 
 By clicking on the info icon on each support group, you can view the description, owner of the group, session ID, member emails, duration, gender or age preferneces of that group.
 
-![Info](assets/info_peersupport.PNG)
+![Info](assets/info_peersupport.jpg)
 
 #### Members in a Group
 
@@ -80,7 +80,7 @@ This is the second page in the peer support app. In this all the support groups 
 
 You can click on the green create new session button on the top to create a space. On clicking you can enter the details like topic name, description, duration, and other peer preferences like gender and age.
 
-![Create New Session](assets/create_new_session_peer_support.PNG)
+![Create New Session](assets/create_new_session_peer_support.jpg)
 
 #### View Join Requests
 
@@ -90,7 +90,7 @@ If you the owner of any support group, you will be able to see this button in th
 
 Next page in the peer support app is the about me page. In this page you can view your details like avatar, email ID, last activity and status. You cn also edit your information like gender and age details. This is always optional.
 
-![About Me](assets/about_me_peer_support.PNG)
+![About Me](assets/about_me_peer_support.jpg)
 
 ### Stay Anonymous
 
