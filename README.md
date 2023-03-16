@@ -54,7 +54,7 @@ In this application, the user can create new therapy sessions or join an existin
 
 ### Support Groups
 
-The first page in the peer support app is the support groups page. In this all the support groups that are active/ closed are displayed and you can view the details of the support group.
+The first page in the Peer Support Demo app is the support groups page. In this all the support groups that are active/ closed are displayed and you can view the details of the support group.
 
 ![Support Groups Page](assets/support_groups_page.jpg)
 
