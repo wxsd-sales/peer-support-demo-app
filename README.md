@@ -30,7 +30,7 @@ This is a sample application, which demonstrates how a potential community-based
 
 ## Overview
 
-In this application, the user can create new therapy sessions or join an existing session and start messages and meetings in the group using Webex android SDK. Here, the user can login using OAuth or as a guest user using JWT. We use SDK to create sessions, let the user join the sessions, get details of the members in the sessions, retrieve details of the user and soon. During the meeting the user can define various meeting options.
+In this application, the user can create new therapy sessions or join an existing session and start messages and meetings in the group using Webex Android SDK. Here, the user can login using OAuth or as a guest user using JWT. We use SDK to create sessions, let the user join the sessions, get details of the members in the sessions, retrieve details of the user and soon. During the meeting the user can define various meeting options.
 
 ## Integration
 
