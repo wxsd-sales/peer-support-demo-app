@@ -1,4 +1,4 @@
-# Peer Support
+# Peer Support Demo App
 Welcome to our WXSD DEMO Repo! <!-- Keep this here --> 
 
 This is a sample application, which demonstrates how a potential community-based peer-to-peer mental health support platform could be created, using Webex Android SDK. We use the SDK to demonstarte functionalities like creating sessions, let the user join the sessions, get details of the members in the sessions, retrieve details of the user and soon. The target audience for this PoC are health care professionals who want an effortless way to group and meet thier clients. The app has a user-friendly interface, making it easy for users to find the right group to solve their problems.
