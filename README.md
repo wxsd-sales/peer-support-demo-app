@@ -3,14 +3,13 @@ Welcome to our WXSD DEMO Repo! <!-- Keep this here -->
 
 This is a sample application, which demonstrates how a potential community-based peer-to-peer mental health support platform could be created, using Webex Android SDK. We use the SDK to demonstarte functionalities like creating sessions, let the user join the sessions, get details of the members in the sessions, retrieve details of the user and soon. The target audience for this PoC are health care professionals who want an effortless way to group and meet thier clients. The app has a user-friendly interface, making it easy for users to find the right group to solve their problems.
 
-<!-- Keep the following here -->  
- *_Everything included is for demo and Proof of Concept purposes only. Your use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos._
+[![Peer Support Android App Demo](assets/peer_support_main.PNG)](https://www.youtube.com/watch?v=SqZhiC8jHhU&t=10s, "Peer Support App")
 
 ## Table of Contents
 
 - [Video Demo](#video-demo)
 - [Overview](#overview)
-- [Integration](#integration)
+- [Setup](#setup)
 - [Functionality](#functionality)
   - [Support Groups](#support-groups)
     - [Info](#info)
@@ -22,19 +21,42 @@ This is a sample application, which demonstrates how a potential community-based
   - [About Me](#about-me)
   - [Stay Anonymous](#stay-anonymous)
   - [Logout](#logout)
-- [Contact](#contact)
+- [Demo](#demo)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+- [Questions](#questions)
 
-## Video Demo
-
-[![Peer Support Android App Demo](assets/peer_support_main.PNG)](https://www.youtube.com/watch?v=SqZhiC8jHhU&t=10s, "Peer Support App")
 
 ## Overview
 
 In this demo application, the user can create new therapy sessions or join an existing session and start messages and meetings in the group using Webex Android SDK. Here, the user can login using OAuth or as a guest user using JWT. We use SDK to create sessions, let the user join the sessions, get details of the members in the sessions, retrieve details of the user and soon. During the meeting the user can define various meeting options.
 
-## Integration
+## Setup
 
-1.  Add the following repository to your top-level `build.gradle` file:
+### Prerequisites & Dependencies:
+
+- Mobile Integration with valid client ID and client secret. Please refer [Webex Developer Site](https://developer.webex.com/docs/integrations#registering-your-integration) to see how to register your integration.
+- Android Studio 4.0 or above (recommended)
+- Webex Android SDK version >3.1.0
+- Android SDK Tools 29 or later
+- Android API Level 24 or later
+- Java JDK 8
+- Kotlin - 1.3.+
+- Gradle for dependency management
+
+<!-- GETTING STARTED -->
+
+### Installation Steps:
+1.  Download or clone this git project and open it in your android studio IDE
+2.  Include all these constants in your gradle.properties file
+    ```
+    CLIENT_ID=""
+    CLIENT_SECRET=""
+    SCOPE=""
+    REDIRECT_URI=""
+    ```
+
+3.  Add the following repository to your top-level `build.gradle` file:
 
         allprojects {
             repositories {
@@ -44,11 +66,13 @@ In this demo application, the user can create new therapy sessions or join an ex
             }
         }
 
-2.  Add the `webex-android-sdk` library as a dependency for your app in the `build.gradle` file:
+4.  Add the `webex-android-sdk` library as a dependency for your app in the `build.gradle` file:
 
         dependencies {
             implementation 'com.ciscowebex:androidsdk:3.2.0@aar'
         }
+        
+5.  Run this project on android emulator or on local device
 
 ## Functionality
 
@@ -106,6 +130,25 @@ If you wish to stay anonymous, while logging in just click on the stay anonymous
 
 Once you are done exploring the application please click on the logout button to securely logout.
 
-## Contact
+## Demo
 
-Please contact us at wxsd@external.cisco.com
+<!-- Insert link to the website below (if deployed). -->
+Check out our live demo, available [here](<https://www.youtube.com/watch?v=SqZhiC8jHhU&t=10s>)!
+
+<!-- Keep the following statement -->
+*For more demos & PoCs like this, check out our [Webex Labs site](https://collabtoolbox.cisco.com/webex-labs).
+
+## License
+<!-- MAKE SURE an MIT license is included in your Repository. If another license is needed, verify with management. This is for legal reasons.--> 
+
+<!-- Keep the following statement -->
+All contents are licensed under the MIT license. Please see [license](LICENSE) for details.
+
+
+## Disclaimer
+<!-- Keep the following here -->  
+ Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos.
+
+
+## Questions
+Please contact the WXSD team at [wxsd@external.cisco.com](mailto:wxsd@external.cisco.com?subject=RepoName) for questions. Or, if you're a Cisco internal employee, reach out to us on the Webex App via our bot (globalexpert@webex.bot). In the "Engagement Type" field, choose the "API/SDK Proof of Concept Integration Development" option to make sure you reach our team. 
